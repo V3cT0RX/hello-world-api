@@ -1,0 +1,16 @@
+{
+    "lang_list": [
+        {
+            "lang_name": "English",
+            "greeting": "Hello world"
+        },
+        {
+            "lang_name": "French",
+            "greeting": "Bonjour le monde"
+        },
+        {
+            "lang_name": "Hindi",
+            "greeting": "Namastey sansar"
+        }
+    ]
+}

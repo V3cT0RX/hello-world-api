@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hello World</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="lang_selector">
+            <select onchange="greet(this.options[this.selectedIndex].value)">
+                <option disabled selected value>Select a langauge</option>
+                <option value="English">English</option>
+                <option value="French">French</option>
+                <option value="Hindi">Hindi</option>
+                <option value="unknown">Unknown language</option>
+            </select>
+        </div>
+        <div id="greeting">
+            Please select language
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>

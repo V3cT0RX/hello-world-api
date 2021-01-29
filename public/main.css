@@ -1,0 +1,35 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    background-color: #a3bcb6;
+}
+
+.wrapper {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px;
+    background-color: white;
+}
+
+.wrapper > * {
+    margin: auto;
+}
+
+.lang_selector {
+    padding: 1em;
+}
+.lang_selector > select {
+    font-size: 40px;
+}
+
+#greeting {
+    font-size: 64px;
+    padding: 1em;
+}
