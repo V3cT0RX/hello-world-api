@@ -12,9 +12,8 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.use('/', indexRouter);
-app.use('/hello', helloRouter);
+app.use(express.static(path.join(__dirname, 'public'))); //frontend is here
+app.use('/', indexRouter); 
+app.use('/hello', helloRouter); // defining api route
 
 module.exports = app;
